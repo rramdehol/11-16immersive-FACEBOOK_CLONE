@@ -5,7 +5,7 @@ body{
 	background-color: #E9EBEE; 
 }
 #facebook-wrapper{
-	 
+	overflow: hidden;
 }
 #header{
 	background-color: #385998;
@@ -122,12 +122,15 @@ body{
 }
 #cover-menu{
 	float: left;
+	height: 
 }
 .cover-menu-item{
 	float: left;
-	padding: 25px;
 	list-style-type: none;
 	font-family: helvetica;
+	border-width: 2px; 
+	border-style: solid;
+	padding: 10px 35px 10px 35px;
 }
 #small-avatar-name{
 	font-family: helvetica;
@@ -137,25 +140,38 @@ body{
 	font-family: helvetica;
 	color: white;
 }
+
+
+/* column 1 */
+#column-1{
+	float: left;
+	clear: left;
+	width: 50%;
+}
 #info-box{
 	list-style-type: none;
+	width: 100%;
 }
 #friends-box{
 	height: 20%;
-	width: 40%;
+	width: 100%;
 	list-style-type: none;
 	overflow: hidden;
-	mar
+}
+#friends-box li{
+	height: 33%;
+	width: 33%;
+	float: left;
+	list-style-type: none;
 }
 #friends-box img{
 	height: 100px;
 	width: 100px;
-	float: left;
-	list-style-type: none;
 }
-
-
-
+#column-2{
+	float: right;
+	width: 50%;
+}
 
 
 
