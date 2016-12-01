@@ -38,6 +38,8 @@ body{
 
 }
 #right-header{
+	/* display: inline-block;
+	text-align: justify; */
 	float: right;
 }
 #right-header div{
@@ -86,9 +88,11 @@ body{
 	width: 100%;
 }
 #big-photo{
-	max-height: 350px;
+	height: 350px;
 	overflow: hidden;
 	z-index: 0;
+	background-image: url('Louvre.jpg');
+	background-size: 100% 350px;
 }
 #big-photo img{
 	width: 100%;	
@@ -100,19 +104,20 @@ body{
 	float: left;
 	position: relative;
 	z-index: 1;
-	margin: -85px 0 0px 48px;
+	margin: -168px 0 0px 48px;
 }
 #big-avatar img{
-	border-radius: 15%;
+	/* border-radius: 15%; */
+	margin: 25px 0 0 -20px;
 }
 #avatar-name {
 	float: left;
 	font-family: helvetica;
 	font-size: 200%;
 	position: relative;
-	margin: -46px 10px 0px 17px;
+	margin: -46px 10px 0px 211px;
 	z-index: 1;
-	color: black;
+	color: white;
 }
 #cover-buttons{
 	float: right;
@@ -122,6 +127,8 @@ body{
 }
 #cover-menu{
 	float: left;
+	width: 100%;
+	padding: 0px 196px;
 }
 .cover-menu-item{
 	float: left;
@@ -129,7 +136,7 @@ body{
 	font-family: helvetica;
 	border-width: 0.5px; 
 	border-style: solid;
-	padding: 10px 30px 10px 35px;
+	padding: 10px 30px;
 	background-color: white;
 }
 #small-avatar-name{
@@ -147,6 +154,7 @@ body{
 	float: left;
 	clear: left;
 	width: 50%;
+	margin: 5px 0px 0px 30px;
 }
 #info-box{
 	list-style-type: none;
@@ -163,6 +171,8 @@ body{
 	width: 26%;
 	float: left;
 	list-style-type: none;
+	background-color: white;
+
 }
 #friends-box img{
 	height: 100px;
@@ -174,6 +184,10 @@ body{
 }
 button {
 	width: 100px;
+	height: 29px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-styl
 }
 
 
