@@ -122,15 +122,15 @@ body{
 }
 #cover-menu{
 	float: left;
-	height: 
 }
 .cover-menu-item{
 	float: left;
 	list-style-type: none;
 	font-family: helvetica;
-	border-width: 2px; 
+	border-width: 0.5px; 
 	border-style: solid;
-	padding: 10px 35px 10px 35px;
+	padding: 10px 30px 10px 35px;
+	background-color: white;
 }
 #small-avatar-name{
 	font-family: helvetica;
